@@ -1,0 +1,9 @@
+
+Sigma grid (Part A) — motivation='medium', mismatch_cost OFF. n=30 per cell.
+
+model               cell                                      n  WAIT   P(WAIT)            95% CI
+-------------------------------------------------------------------------------------------------
+qwen3.8-27b         sigma=0.3 premise=costly stmt=inevitability   30     5     0.167    [0.073, 0.336]
+qwen3.8-27b         sigma=0.3 premise=costly stmt=bare       30     9     0.300    [0.167, 0.479]
+
+Wrote /Users/priyalsharma/Library/Application Support/Claude/scratch-workspaces/a18956ca-2181-4d8c-9f5e-534c8b5f3953/3e84b6ac-35a5-4775-8d78-39b3a8bc0027/scratch-2026-11-08-613fca/probe_results.sigmagrid.jsonl

@@ -1,0 +1,181 @@
+======================================================================
+MORNING SUMMARY
+======================================================================
+
+DONE:
+  - Sigma grid (Part A): 60/60 cells written to probe_results.sigmagrid.jsonl
+  - Motivation control (Part B): 32/32 cells written to probe_results.partB.jsonl
+  - Analysis tables: written to results/tables.txt
+  - Figure: written to results/figures/sigma_grid.png
+  - Sample replies: written to results/sample_replies.md
+  - Summary: written to results/summary.md
+  - Step 2 (apply_risk dose, CONFIRMED text): 18 cells for floor model(s) ['deepseek-v4-flash', 'gemma-4-31b-it', 'qwen3.8-27b'], written to probe_results.step2.jsonl
+
+NEEDS APPROVAL:
+
+BROKEN / FLAGGED CELLS (parse_ok<0.8 or API errors during collection):
+  - qwen3.8-27b / sigma=0.7 premise=costly stmt=inevitability: 3 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - deepseek-v4-flash / sigma=0.3 premise=costly stmt=inevitability: 1 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - deepseek-v4-flash / sigma=0.3 premise=costless stmt=inevitability: 1 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+
+Progress-log lines mentioning a skip/stop during the night: 15
+  NEEDS APPROVAL:
+    NEEDS APPROVAL:
+      NEEDS APPROVAL:
+        NEEDS APPROVAL:
+      NEEDS APPROVAL:
+    NEEDS APPROVAL:
+      NEEDS APPROVAL:
+    NEEDS APPROVAL:
+  NEEDS APPROVAL:
+    NEEDS APPROVAL:
+      NEEDS APPROVAL:
+    NEEDS APPROVAL:
+  NEEDS APPROVAL:
+    NEEDS APPROVAL:
+  NEEDS APPROVAL:
+======================================================================
+
+======================================================================
+MORNING SUMMARY
+======================================================================
+
+DONE:
+  - Sigma grid (Part A): 60/60 cells written to probe_results.sigmagrid.jsonl
+  - Motivation control (Part B): 32/32 cells written to probe_results.partB.jsonl
+  - Analysis tables: written to results/tables.txt
+  - Figure: written to results/figures/sigma_grid.png
+  - Sample replies: written to results/sample_replies.md
+  - Summary: written to results/summary.md
+  - Step 2 (apply_risk dose, CONFIRMED text): 18 cells for floor model(s) ['deepseek-v4-flash', 'gemma-4-31b-it', 'qwen3.8-27b'], written to probe_results.step2.jsonl
+
+NEEDS APPROVAL:
+
+BROKEN / FLAGGED CELLS (parse_ok<0.8 or API errors during collection):
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=inevitability: parse_ok=0.13
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=inevitability: 26 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=bare: parse_ok=0.30
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=bare: 21 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - qwen3.8-27b / sigma=0.7 premise=costly stmt=inevitability: 3 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - deepseek-v4-flash / sigma=0.3 premise=costly stmt=inevitability: 1 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - deepseek-v4-flash / sigma=0.3 premise=costless stmt=inevitability: 1 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+
+Progress-log lines mentioning a skip/stop during the night: 7
+  NEEDS APPROVAL:
+    NEEDS APPROVAL:
+      NEEDS APPROVAL:
+    NEEDS APPROVAL:
+  NEEDS APPROVAL:
+    NEEDS APPROVAL:
+  NEEDS APPROVAL:
+======================================================================
+
+======================================================================
+MORNING SUMMARY
+======================================================================
+
+DONE:
+  - Sigma grid (Part A): 60/60 cells written to probe_results.sigmagrid.jsonl
+  - Motivation control (Part B): 32/32 cells written to probe_results.partB.jsonl
+  - Analysis tables: written to results/tables.txt
+  - Figure: written to results/figures/sigma_grid.png
+  - Sample replies: written to results/sample_replies.md
+  - Summary: written to results/summary.md
+  - Step 2 (apply_risk dose, CONFIRMED text): 18 cells for floor model(s) ['deepseek-v4-flash', 'gemma-4-31b-it', 'qwen3.8-27b'], written to probe_results.step2.jsonl
+
+NEEDS APPROVAL:
+
+BROKEN / FLAGGED CELLS (parse_ok<0.8 or API errors during collection):
+  - qwen3.8-27b / sigma=0.3 premise=costly stmt=inevitability: parse_ok=0.00
+  - qwen3.8-27b / sigma=0.3 premise=costly stmt=inevitability: 30 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - qwen3.8-27b / sigma=0.3 premise=costly stmt=bare: parse_ok=0.00
+  - qwen3.8-27b / sigma=0.3 premise=costly stmt=bare: 30 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=inevitability: parse_ok=0.13
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=inevitability: 26 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=bare: parse_ok=0.30
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=bare: 21 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - qwen3.8-27b / sigma=0.7 premise=costly stmt=inevitability: 3 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - deepseek-v4-flash / sigma=0.3 premise=costly stmt=inevitability: 1 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - deepseek-v4-flash / sigma=0.3 premise=costless stmt=inevitability: 1 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+
+Progress-log lines mentioning a skip/stop during the night: 3
+  NEEDS APPROVAL:
+    NEEDS APPROVAL:
+  NEEDS APPROVAL:
+======================================================================
+
+======================================================================
+MORNING SUMMARY
+======================================================================
+
+DONE:
+  - Sigma grid (Part A): 60/60 cells written to probe_results.sigmagrid.jsonl
+  - Motivation control (Part B): 32/32 cells written to probe_results.partB.jsonl
+  - Analysis tables: written to results/tables.txt
+  - Figure: written to results/figures/sigma_grid.png
+  - Sample replies: written to results/sample_replies.md
+  - Summary: written to results/summary.md
+
+NEEDS APPROVAL:
+  - Step 2 (apply_risk 3-dose sweep) — approved and the text is confirmed in scenario.py (APPLY_RISK_TEXT), but probe_results.step2.jsonl is still empty. Either no model was at the floor, or it hasn't run/finished yet.
+
+BROKEN / FLAGGED CELLS (parse_ok<0.8 or API errors during collection):
+  - qwen3.8-27b / sigma=0.3 premise=costly stmt=inevitability: parse_ok=0.00
+  - qwen3.8-27b / sigma=0.3 premise=costly stmt=inevitability: 30 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - qwen3.8-27b / sigma=0.3 premise=costly stmt=bare: parse_ok=0.00
+  - qwen3.8-27b / sigma=0.3 premise=costly stmt=bare: 30 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=inevitability: parse_ok=0.13
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=inevitability: 26 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=bare: parse_ok=0.30
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=bare: 21 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - qwen3.8-27b / sigma=0.7 premise=costly stmt=inevitability: 3 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>', 'InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - deepseek-v4-flash / sigma=0.3 premise=costly stmt=inevitability: 1 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+  - deepseek-v4-flash / sigma=0.3 premise=costless stmt=inevitability: 1 API error(s) during collection — ['InternalServerError: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>']
+
+Progress-log lines mentioning a skip/stop during the night: 1
+  NEEDS APPROVAL:
+======================================================================
+
+======================================================================
+MORNING SUMMARY
+======================================================================
+
+DONE:
+  - Sigma grid (Part A): 0/60 cells written to probe_results.sigmagrid.jsonl
+  - Motivation control (Part B): 9/32 cells written to probe_results.partB.jsonl
+  - Analysis tables: written to results/tables.txt
+  - Figure: written to results/figures/sigma_grid.png
+  - Sample replies: MISSING
+  - Summary: written to results/summary.md
+
+NEEDS APPROVAL:
+  - Step 2 (apply_risk 3-dose sweep) — scenario.py's apply_risk text is still a single DRAFT placeholder, not the confirmed mild/moderate/severe dose text from the audit spec. Not fabricated. Needs you to supply or confirm the exact wording before this can run.
+
+BROKEN / FLAGGED CELLS (parse_ok<0.8 or API errors during collection):
+  (none)
+
+Progress-log lines mentioning a skip/stop during the night: 0
+======================================================================
+
+[2026-11-08 00:07:09] === overnight run starting ===
+[2026-11-08 00:07:10] API health check passed on the primary key — resuming data collection
+[2026-11-08 00:07:10] PRIORITY 1a: resuming sigma-grid (Part A)
+[2026-11-08 09:00:49] sigma-grid resume exited with code 0 — see results/sigmagrid_log.txt
+[2026-11-08 09:00:49] PRIORITY 1b: resuming motivation-control (Part B)
+[2026-11-08 09:48:21] Part B resume exited with code 0 — see results/partb_log.txt
+[2026-11-08 09:48:21] PRIORITY 1c: running analyze_probe.py (tables + figure)
+[2026-11-08 09:48:26] analyze_probe.py exited with code 0 — see results/analyze_log.txt
+[2026-11-08 09:48:26] PRIORITY 2: apply_risk (Step 2) dose text is still DRAFT/unconfirmed from the prior session 
+[2026-11-08 09:48:26] PRIORITY 3: pulling sample replies
+[2026-11-08 09:48:30] pull_sample_replies.py exited with code 0 — see results/sample_replies_log.txt
+[2026-11-08 09:48:30] PRIORITY 4: drafting results summary
+[2026-11-08 09:48:30] write_summary.py exited with code 0 — see results/summary_log.txt
+[2026-11-08 09:48:30] === overnight run finished — writing MORNING SUMMARY ===
+[2026-11-08 09:48:30] done.
+[2026-11-08 09:48:31] === overnight_runner.sh (PID 21634) finished — starting Step 2 ===
+[2026-11-08 09:48:31] STEP 2: running apply_risk dose sweep (confirmed text, floor models only)
+[2026-11-08 09:48:31] STEP 2: models still at the floor (eligible): ['deepseek-v4-flash', 'gemma-4-31b-it', 'qwen3.8-27b']
+[2026-11-08 10:13:15] STEP 2: skipping glm-5.2 — not at the floor (precondition not met for this model)
+[2026-11-08 10:30:34] Step 2 exited with code 0 — see results/step2_log.txt
+[2026-11-08 10:30:34] Regenerating summary + morning summary to include Step 2
+[2026-11-08 10:30:35] Step 2 pass complete.

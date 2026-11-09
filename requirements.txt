@@ -1,0 +1,9 @@
+openai>=1.0
+adaption
+matplotlib
+numpy
+pandas
+
+# only needed for src/run_concordia.py, an abandoned earlier approach kept
+# for provenance — not required to reproduce anything else in this repo
+# concordia

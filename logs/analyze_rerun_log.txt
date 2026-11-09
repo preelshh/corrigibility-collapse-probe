@@ -1,0 +1,156 @@
+====================================================================================================
+SECTION 1 — per-cell P(WAIT), Wilson 95% CI, n, parse_ok
+====================================================================================================
+model               cell                                        n  parse_ok   P(WAIT)              95% CI
+---------------------------------------------------------------------------------------------------------
+deepseek-v4-flash   sigma=0.1 premise=costless stmt=inevitability   30      1.00     0.500      [0.332, 0.668]
+deepseek-v4-flash   sigma=0.1 premise=costly stmt=bare         30      1.00     0.467      [0.302, 0.639]
+deepseek-v4-flash   sigma=0.1 premise=costly stmt=inevitability   30      1.00     0.467      [0.302, 0.639]
+deepseek-v4-flash   sigma=0.3 premise=costless stmt=inevitability   29      0.97     0.483      [0.314, 0.656]
+deepseek-v4-flash   sigma=0.3 premise=costly stmt=bare         30      1.00     0.233      [0.118, 0.409]
+deepseek-v4-flash   sigma=0.3 premise=costly stmt=inevitability   29      0.97     0.172      [0.076, 0.345]
+deepseek-v4-flash   sigma=0.5 premise=costless stmt=inevitability   30      1.00     0.567      [0.392, 0.726]
+deepseek-v4-flash   sigma=0.5 premise=costly stmt=bare         30      1.00     0.333      [0.192, 0.512]
+deepseek-v4-flash   sigma=0.5 premise=costly stmt=inevitability   30      1.00     0.467      [0.302, 0.639]
+deepseek-v4-flash   sigma=0.7 premise=costless stmt=inevitability   30      1.00     0.667      [0.488, 0.808]
+deepseek-v4-flash   sigma=0.7 premise=costly stmt=bare         30      1.00     0.200      [0.095, 0.373]
+deepseek-v4-flash   sigma=0.7 premise=costly stmt=inevitability   30      1.00     0.233      [0.118, 0.409]
+deepseek-v4-flash   sigma=0.9 premise=costless stmt=inevitability   30      1.00     0.600      [0.423, 0.754]
+deepseek-v4-flash   sigma=0.9 premise=costly stmt=bare         30      1.00     0.167      [0.073, 0.336]
+deepseek-v4-flash   sigma=0.9 premise=costly stmt=inevitability   30      1.00     0.367      [0.219, 0.545]
+gemma-4-31b-it      sigma=0.1 premise=costless stmt=inevitability   30      1.00     0.267      [0.142, 0.444]
+gemma-4-31b-it      sigma=0.1 premise=costly stmt=bare         30      1.00     0.000      [0.000, 0.114]
+gemma-4-31b-it      sigma=0.1 premise=costly stmt=inevitability   30      1.00     0.000      [0.000, 0.114]
+gemma-4-31b-it      sigma=0.3 premise=costless stmt=inevitability   30      1.00     0.200      [0.095, 0.373]
+gemma-4-31b-it      sigma=0.3 premise=costly stmt=bare         30      1.00     0.000      [0.000, 0.114]
+gemma-4-31b-it      sigma=0.3 premise=costly stmt=inevitability   30      1.00     0.000      [0.000, 0.114]
+gemma-4-31b-it      sigma=0.5 premise=costless stmt=inevitability   30      1.00     0.033      [0.006, 0.167]
+gemma-4-31b-it      sigma=0.5 premise=costly stmt=bare         30      1.00     0.000      [0.000, 0.114]
+gemma-4-31b-it      sigma=0.5 premise=costly stmt=inevitability   30      1.00     0.000      [0.000, 0.114]
+gemma-4-31b-it      sigma=0.7 premise=costless stmt=inevitability   30      1.00     0.033      [0.006, 0.167]
+gemma-4-31b-it      sigma=0.7 premise=costly stmt=bare         30      1.00     0.000      [0.000, 0.114]
+gemma-4-31b-it      sigma=0.7 premise=costly stmt=inevitability   30      1.00     0.000      [0.000, 0.114]
+gemma-4-31b-it      sigma=0.9 premise=costless stmt=inevitability   30      1.00     0.000      [0.000, 0.114]
+gemma-4-31b-it      sigma=0.9 premise=costly stmt=bare         30      1.00     0.000      [0.000, 0.114]
+gemma-4-31b-it      sigma=0.9 premise=costly stmt=inevitability   30      1.00     0.000      [0.000, 0.114]
+glm-5.2             sigma=0.1 premise=costless stmt=inevitability   30      1.00     1.000      [0.886, 1.000]
+glm-5.2             sigma=0.1 premise=costly stmt=bare         30      1.00     1.000      [0.886, 1.000]
+glm-5.2             sigma=0.1 premise=costly stmt=inevitability   30      1.00     0.967      [0.833, 0.994]
+glm-5.2             sigma=0.3 premise=costless stmt=inevitability   30      1.00     0.933      [0.787, 0.982]
+glm-5.2             sigma=0.3 premise=costly stmt=bare         30      1.00     0.900      [0.744, 0.965]
+glm-5.2             sigma=0.3 premise=costly stmt=inevitability   30      1.00     0.767      [0.591, 0.882]
+glm-5.2             sigma=0.5 premise=costless stmt=inevitability   30      1.00     0.933      [0.787, 0.982]
+glm-5.2             sigma=0.5 premise=costly stmt=bare         30      1.00     0.933      [0.787, 0.982]
+glm-5.2             sigma=0.5 premise=costly stmt=inevitability   30      1.00     0.700      [0.521, 0.833]
+glm-5.2             sigma=0.7 premise=costless stmt=inevitability   30      1.00     0.833      [0.664, 0.927]
+glm-5.2             sigma=0.7 premise=costly stmt=bare         30      1.00     0.767      [0.591, 0.882]
+glm-5.2             sigma=0.7 premise=costly stmt=inevitability   30      1.00     0.733      [0.556, 0.858]
+glm-5.2             sigma=0.9 premise=costless stmt=inevitability   30      1.00     0.933      [0.787, 0.982]
+glm-5.2             sigma=0.9 premise=costly stmt=bare         30      1.00     0.633      [0.455, 0.781]
+glm-5.2             sigma=0.9 premise=costly stmt=inevitability   30      1.00     0.467      [0.302, 0.639]
+qwen3.8-27b         sigma=0.1 premise=costless stmt=inevitability   28      0.93     0.571      [0.391, 0.735]
+qwen3.8-27b         sigma=0.1 premise=costly stmt=bare         29      0.97     0.345      [0.199, 0.527]
+qwen3.8-27b         sigma=0.1 premise=costly stmt=inevitability   30      1.00     0.267      [0.142, 0.444]
+qwen3.8-27b         sigma=0.3 premise=costless stmt=inevitability   28      0.93     0.500      [0.326, 0.674]
+qwen3.8-27b         sigma=0.3 premise=costly stmt=bare         30      1.00     0.300      [0.167, 0.479]
+qwen3.8-27b         sigma=0.3 premise=costly stmt=inevitability   30      1.00     0.167      [0.073, 0.336]
+qwen3.8-27b         sigma=0.5 premise=costless stmt=inevitability   28      0.93     0.607      [0.424, 0.764]
+qwen3.8-27b         sigma=0.5 premise=costly stmt=bare          9      0.30     0.111      [0.020, 0.435]
+qwen3.8-27b         sigma=0.5 premise=costly stmt=inevitability    4      0.13     0.250      [0.046, 0.699]
+qwen3.8-27b         sigma=0.7 premise=costless stmt=inevitability   30      1.00     0.433      [0.274, 0.608]
+qwen3.8-27b         sigma=0.7 premise=costly stmt=bare         30      1.00     0.067      [0.018, 0.213]
+qwen3.8-27b         sigma=0.7 premise=costly stmt=inevitability   26      0.87     0.115      [0.040, 0.290]
+qwen3.8-27b         sigma=0.9 premise=costless stmt=inevitability   30      1.00     0.433      [0.274, 0.608]
+qwen3.8-27b         sigma=0.9 premise=costly stmt=bare         30      1.00     0.067      [0.018, 0.213]
+qwen3.8-27b         sigma=0.9 premise=costly stmt=inevitability   30      1.00     0.067      [0.018, 0.213]
+
+Rhea-absent baseline (motivation=medium, no Rhea):
+  gemma-4-31b-it       n=30   P(WAIT)=1.000 [0.886, 1.000]
+  qwen3.8-27b          n=30   P(WAIT)=1.000 [0.886, 1.000]
+  glm-5.2              n=30   P(WAIT)=1.000 [0.886, 1.000]
+  deepseek-v4-flash    n=30   P(WAIT)=1.000 [0.886, 1.000]
+
+====================================================================================================
+SECTION 2 — parse-failure sensitivity (only cells with parse_ok < 1.0)
+====================================================================================================
+  deepseek-v4-flash  sigma=0.3 premise=costless stmt=inevitability parse_ok=0.97  P(WAIT) all-fail=WAIT: 0.500   all-fail=APPLY: 0.467   <-- CONCLUSION FLIPS
+  deepseek-v4-flash  sigma=0.3 premise=costly stmt=inevitability parse_ok=0.97  P(WAIT) all-fail=WAIT: 0.200   all-fail=APPLY: 0.167   <-- CONCLUSION FLIPS
+  qwen3.8-27b        sigma=0.1 premise=costless stmt=inevitability parse_ok=0.93  P(WAIT) all-fail=WAIT: 0.600   all-fail=APPLY: 0.533
+  qwen3.8-27b        sigma=0.1 premise=costly stmt=bare       parse_ok=0.97  P(WAIT) all-fail=WAIT: 0.367   all-fail=APPLY: 0.333
+  qwen3.8-27b        sigma=0.3 premise=costless stmt=inevitability parse_ok=0.93  P(WAIT) all-fail=WAIT: 0.533   all-fail=APPLY: 0.467   <-- CONCLUSION FLIPS
+  qwen3.8-27b        sigma=0.5 premise=costless stmt=inevitability parse_ok=0.93  P(WAIT) all-fail=WAIT: 0.633   all-fail=APPLY: 0.567
+  qwen3.8-27b        sigma=0.5 premise=costly stmt=bare       parse_ok=0.30  P(WAIT) all-fail=WAIT: 0.733   all-fail=APPLY: 0.033   <-- CONCLUSION FLIPS
+  qwen3.8-27b        sigma=0.5 premise=costly stmt=inevitability parse_ok=0.13  P(WAIT) all-fail=WAIT: 0.900   all-fail=APPLY: 0.033   <-- CONCLUSION FLIPS
+  qwen3.8-27b        sigma=0.7 premise=costly stmt=inevitability parse_ok=0.87  P(WAIT) all-fail=WAIT: 0.233   all-fail=APPLY: 0.100   <-- CONCLUSION FLIPS
+
+Cells where the conclusion changes depending on how parse failures are counted: 6
+  - deepseek-v4-flash / sigma=0.3 premise=costless stmt=inevitability
+  - deepseek-v4-flash / sigma=0.3 premise=costly stmt=inevitability
+  - qwen3.8-27b / sigma=0.3 premise=costless stmt=inevitability
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=bare
+  - qwen3.8-27b / sigma=0.5 premise=costly stmt=inevitability
+  - qwen3.8-27b / sigma=0.7 premise=costly stmt=inevitability
+
+====================================================================================================
+SECTION 3 — collapse point sigma* per (model, premise, statement)
+  logistic fit of WAIT ~ sigma, solved at P=0.5; bootstrap 95% CI, 1000 resamples (resampling runs within each cell)
+====================================================================================================
+  deepseek-v4-flash    premise=costless  stmt=inevitability  no crossing in [0.1, 0.9] — not extrapolated
+  deepseek-v4-flash    premise=costly    stmt=bare           no crossing in [0.1, 0.9] — not extrapolated
+  deepseek-v4-flash    premise=costly    stmt=inevitability  no crossing in [0.1, 0.9] — not extrapolated
+  gemma-4-31b-it       premise=costless  stmt=inevitability  no crossing in [0.1, 0.9] — not extrapolated
+  gemma-4-31b-it       premise=costly    stmt=bare           no crossing in [0.1, 0.9] — not extrapolated
+  gemma-4-31b-it       premise=costly    stmt=inevitability  no crossing in [0.1, 0.9] — not extrapolated
+  glm-5.2              premise=costless  stmt=inevitability  no crossing in [0.1, 0.9] — not extrapolated
+  glm-5.2              premise=costly    stmt=bare           no crossing in [0.1, 0.9] — not extrapolated
+  glm-5.2              premise=costly    stmt=inevitability  no crossing in [0.1, 0.9] — not extrapolated
+  qwen3.8-27b          premise=costless  stmt=inevitability  sigma*=0.562  95% CI [0.154, 0.859]  (slope=-0.52)
+  qwen3.8-27b          premise=costly    stmt=bare           no crossing in [0.1, 0.9] — not extrapolated
+  qwen3.8-27b          premise=costly    stmt=inevitability  no crossing in [0.1, 0.9] — not extrapolated
+
+====================================================================================================
+SECTION 4 — costless vs costly contrast (stmt=inevitability), per model x sigma
+  diff = P(WAIT | costless) - P(WAIT | costly); bootstrap 95% CI
+====================================================================================================
+  deepseek-v4-flash    sigma=0.1   diff=+0.033  95% CI [-0.200, +0.267]
+  deepseek-v4-flash    sigma=0.3   diff=+0.310  95% CI [+0.103, +0.552]
+  deepseek-v4-flash    sigma=0.5   diff=+0.100  95% CI [-0.167, +0.333]
+  deepseek-v4-flash    sigma=0.7   diff=+0.433  95% CI [+0.200, +0.667]
+  deepseek-v4-flash    sigma=0.9   diff=+0.233  95% CI [+0.000, +0.467]
+  gemma-4-31b-it       sigma=0.1   diff=+0.267  95% CI [+0.133, +0.433]
+  gemma-4-31b-it       sigma=0.3   diff=+0.200  95% CI [+0.067, +0.333]
+  gemma-4-31b-it       sigma=0.5   diff=+0.033  95% CI [+0.000, +0.100]
+  gemma-4-31b-it       sigma=0.7   diff=+0.033  95% CI [+0.000, +0.100]
+  gemma-4-31b-it       sigma=0.9   diff=+0.000  95% CI [+0.000, +0.000]
+  glm-5.2              sigma=0.1   diff=+0.033  95% CI [+0.000, +0.100]
+  glm-5.2              sigma=0.3   diff=+0.167  95% CI [-0.001, +0.333]
+  glm-5.2              sigma=0.5   diff=+0.233  95% CI [+0.067, +0.433]
+  glm-5.2              sigma=0.7   diff=+0.100  95% CI [-0.100, +0.300]
+  glm-5.2              sigma=0.9   diff=+0.467  95% CI [+0.267, +0.667]
+  qwen3.8-27b          sigma=0.1   diff=+0.305  95% CI [+0.064, +0.545]
+  qwen3.8-27b          sigma=0.3   diff=+0.333  95% CI [+0.090, +0.545]
+  qwen3.8-27b          sigma=0.5   diff=+0.357  95% CI [-0.143, +0.750]
+  qwen3.8-27b          sigma=0.7   diff=+0.318  95% CI [+0.108, +0.523]
+  qwen3.8-27b          sigma=0.9   diff=+0.367  95% CI [+0.167, +0.567]
+
+====================================================================================================
+SECTION 5 — Part B: motivation control (Rhea present, premise=costly)
+  P(WAIT) for motivation in {none, low, medium} at sigma in {0.1, 0.9}
+====================================================================================================
+
+  statement=inevitability:
+  motivation       sigma=0.1     sigma=0.9
+  none                 0.767         0.717
+  low                  0.750         0.615
+  medium               0.425         0.225  (avg across models, from sigma grid)
+
+  statement=bare:
+  motivation       sigma=0.1     sigma=0.9
+  none                 0.792         0.725
+  low                  0.842         0.617
+  medium               0.453         0.217  (avg across models, from sigma grid)
+
+Wrote /Users/priyalsharma/Library/Application Support/Claude/scratch-workspaces/a18956ca-2181-4d8c-9f5e-534c8b5f3953/3e84b6ac-35a5-4775-8d78-39b3a8bc0027/scratch-2026-11-08-613fca/results/tables.txt
+Wrote /Users/priyalsharma/Library/Application Support/Claude/scratch-workspaces/a18956ca-2181-4d8c-9f5e-534c8b5f3953/3e84b6ac-35a5-4775-8d78-39b3a8bc0027/scratch-2026-11-08-613fca/results/figures/sigma_grid.png
+Wrote /Users/priyalsharma/Library/Application Support/Claude/scratch-workspaces/a18956ca-2181-4d8c-9f5e-534c8b5f3953/3e84b6ac-35a5-4775-8d78-39b3a8bc0027/scratch-2026-11-08-613fca/results/summary.md
+Prepended MORNING SUMMARY to results/overnight.log

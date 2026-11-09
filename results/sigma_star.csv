@@ -1,0 +1,13 @@
+model,premise,stmt,sigma_star,ci_lo,ci_hi
+deepseek-v4-flash,costless,inevitability,,,
+deepseek-v4-flash,costly,bare,,,
+deepseek-v4-flash,costly,inevitability,,,
+gemma-4-31b-it,costless,inevitability,,,
+gemma-4-31b-it,costly,bare,,,
+gemma-4-31b-it,costly,inevitability,,,
+glm-5.2,costless,inevitability,,,
+glm-5.2,costly,bare,,,
+glm-5.2,costly,inevitability,,,
+qwen3.8-27b,costless,inevitability,0.5624364402760499,0.15433934674933544,0.8590920266898844
+qwen3.8-27b,costly,bare,,,
+qwen3.8-27b,costly,inevitability,,,

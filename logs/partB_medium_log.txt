@@ -1,0 +1,21 @@
+
+Part B — filling motivation=medium, Rhea present, stmt=inevitability. n=30 per cell.
+
+model               cell                                        n  WAIT   P(WAIT)            95% CI
+---------------------------------------------------------------------------------------------------
+    api error (APITimeoutError ), retry in 2s
+    api error (APITimeoutError ), retry in 2s
+    api error (APITimeoutError ), retry in 2s
+    api error (APITimeoutError ), retry in 2s
+glm-5.2             motivation=medium sigma=0.1 stmt=inevitability   30    25     0.833    [0.664, 0.927]  (950s)
+glm-5.2             motivation=medium sigma=0.9 stmt=inevitability   30    21     0.700    [0.521, 0.833]  (172s)
+deepseek-v4-flash   motivation=medium sigma=0.1 stmt=inevitability   30     7     0.233    [0.118, 0.409]  (98s)
+deepseek-v4-flash   motivation=medium sigma=0.9 stmt=inevitability   30     4     0.133    [0.053, 0.297]  (101s)
+qwen3.8-27b         motivation=medium sigma=0.1 stmt=inevitability   29     7     0.241    [0.122, 0.421]  (207s)
+qwen3.8-27b         motivation=medium sigma=0.9 stmt=inevitability   30     3     0.100    [0.035, 0.256]  (189s)
+gemma-4-31b-it      motivation=medium sigma=0.1 stmt=inevitability   30     0     0.000    [0.000, 0.114]  (7s)
+    rate limited — pausing ALL threads 62s (server's own cooldown)
+    rate limited — pausing ALL threads 62s (server's own cooldown)
+gemma-4-31b-it      motivation=medium sigma=0.9 stmt=inevitability   30     0     0.000    [0.000, 0.114]  (70s)
+
+Wrote /Users/priyalsharma/Library/Application Support/Claude/scratch-workspaces/a18956ca-2181-4d8c-9f5e-534c8b5f3953/3e84b6ac-35a5-4775-8d78-39b3a8bc0027/scratch-2026-11-08-613fca/probe_results.partB.jsonl  (total 1796s)

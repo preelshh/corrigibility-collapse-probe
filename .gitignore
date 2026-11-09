@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+*.key
+
+# Never commit real credentials if a runner script is edited locally
+*_local.sh
